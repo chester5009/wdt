@@ -1,0 +1,13 @@
+body{
+	background-color: black;
+}
+.body-container{
+	div,section{
+		padding: 0px;
+	}
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 900px;
+}
+@import "modules/menu.scss"

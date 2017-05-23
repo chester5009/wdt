@@ -1,0 +1,20 @@
+mixin menu-menuitem(item)
+	div.col-md-3
+		div.row.item-row
+			button.btn.btn-link.btn-block=item.name
+
+
+section.container
+	section.menu
+		div.row
+			div.col-md-3
+			div.col-md-6
+				div.row.menu-row
+					+menu-menuitem({name:'service'})
+					+menu-menuitem({name:'pricelist'})
+					+menu-menuitem({name:'politics'})
+					+menu-menuitem({name:'contacts'})
+					
+				
+				
+			div.col-md-3
