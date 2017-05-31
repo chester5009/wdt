@@ -1,0 +1,21 @@
+mixin text_content()
+	p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium porttitor dui, sed sodales leo luctus luctus. Vestibulum ut semper erat. Nam congue aliquam auctor. Sed et felis dignissim, facilisis tellus ac, suscipit metus. Nam eleifend ante et pulvinar malesuada. Sed posuere arcu turpis, et tempor sapien malesuada non. Sed vel ante vel turpis bibendum congue. Ut eget condimentum justo. Phasellus varius velit id elit placerat sagittis. Nunc aliquet, quam eu venenatis placerat, libero libero pulvinar mauris, non ullamcorper orci ex eu nibh. Maecenas rutrum ullamcorper orci quis pretium. Cras congue odio sed libero sagittis varius. Nullam eget nisl tellus. Fusce interdum molestie ante ut pretium. Pellentesque placerat neque et mattis sollicitudin.
+
+section.container
+	section.content
+		div.row
+			div.col-sm-1.logo-block
+				img.logo(src="img/logo.png")
+			div.col-sm-offset-1.col-sm-8
+				div.row.content-block 
+					+text_content()
+					+text_content()
+					+text_content()
+					+text_content()
+					+text_content()
+			div.col-sm-offset-1.col-sm-1.lang-block
+				div.row.lang-row
+					div.col-sm-3 
+						a.lang-href(href="#") EN
+					div.col-sm-3 
+						a.lang-href(href="#") RU
